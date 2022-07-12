@@ -12,8 +12,9 @@ public class ApplicationManager {
 
     WebDriver wd;
     HelperUser helperUser;
+    HelperCar car;
 
-    public void init(){
+    public void init() {
 
         wd = new ChromeDriver();
         wd.manage().window().maximize();
@@ -22,17 +23,17 @@ public class ApplicationManager {
         helperUser = new HelperUser(wd);
 
     }
-    public void stop(){
+
+    public void stop() {
         wd.quit();
     }
 
-    public HelperUser getHelperUser(){
+    public HelperUser getHelperUser() {
         return helperUser;
     }
 
-    public String getMessage(){
-        new WebDriverWait(wd,Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
-        String message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
-        return message;
+    public HelperCar car() {
+
+        return car;
     }
 }
