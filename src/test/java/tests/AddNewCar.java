@@ -1,14 +1,22 @@
 package tests;
 
+
 import models.Car;
+import models.User;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.util.Random;
 
 public class AddNewCar extends TestBase {
 
     @BeforeMethod
     public void preCondition() {
-        // logged?
+        if(!app.getHelperUser().isLogged()){
+                    app.getHelperUser().login(new User().setEmail("noa@gmail.com").setPassword("Nnoa12345$"));
+               }
     }
 
     @Test
@@ -38,6 +46,11 @@ public class AddNewCar extends TestBase {
         app.car().fillCarForm(car);
         app.car().attachPhoto("");
         app.car().submit();
+        Assert.assertEquals(app.car().getMessage(),"Car added");
 
+    }
+    @AfterMethod
+    public void postCondition(){
+        app.car().returnToHome();
     }
 }
