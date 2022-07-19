@@ -11,11 +11,13 @@ public class LoginTests extends TestBase {
 
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
+            logger.info("Test start with logout");
         }
     }
 
     @Test
     public void loginSuccess() {
+        logger.info("Test start with email : 'noa@gmail.com' & password 'Nnoa12345$'");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noa@gmail.com", "Nnoa12345$");
         app.getHelperUser().submit();
