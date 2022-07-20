@@ -1,13 +1,17 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+import java.nio.file.Files;
+import java.time.Duration;
 
 public class HelperBase {
     WebDriver wd;
 
-    public HelperBase(WebDriver wd){
+    public HelperBase(WebDriver wd) {
         this.wd = wd;
     }
 
@@ -24,20 +28,41 @@ public class HelperBase {
         wd.findElement(locator).click();
     }
 
-    public void  submit(){
+    public String getMessage() {
+        // pause
+        //pause(2000);
+        //wait container
+        new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+
+        //String  message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+        return wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+    }
+    public void submit(){
+        new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions
+                .elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
         wd.findElement(By.cssSelector("button[type='submit']")).click();
-        //wd.findElement(By.xpath("//button[text()='Y’alla!']")).click();
+        // wd.findElement(By.xpath("//button[text()='Y’alla!']")).click();  // YЕalla!
     }
 
     public boolean isElementPresent(By locator){
         return wd.findElements(locator).size()>0;
+
     }
 
-    public void pause(int time){
+    public void pause(int time)    {
         try {
             Thread.sleep(time);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
+
+
+    public void jsexemple(){
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#name').value='Lola';");
+        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+    }
+
 }
