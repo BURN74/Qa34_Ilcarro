@@ -25,7 +25,9 @@ public class HelperUser extends HelperBase{
 
     public void fillLoginForm(String email,String password){
         type(By.id("email"),email);
-        type(By.id("password"),password);
+        takeScreenShots("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\src\\test\\screenshots");
+
+        type(By.id("d"),password);
     }
     public void fillLoginForm(User user){
         type(By.id("email"), user.getEmail());

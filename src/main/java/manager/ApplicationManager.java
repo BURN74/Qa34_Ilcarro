@@ -1,5 +1,3 @@
-
-
 package manager;
 
 
@@ -20,28 +18,33 @@ public class ApplicationManager {
     WebDriver wd;
     HelperUser helperUser;
     HelperCar car;
+    HelperSearch search;
 
-    public void init() {
+    public void init(){
 
-        wd = new ChromeDriver();
+        wd=new ChromeDriver();
         WebDriverListener listener = new MyListener();
-        wd = new EventFiringDecorator(listener).decorate(wd);
+        wd=new EventFiringDecorator(listener).decorate(wd);
 
         logger.info("All Tests run in Chrome Driver");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         wd.navigate().to("https://ilcarro-1578153671498.web.app");
-        logger.info("Current Url --> " + wd.getCurrentUrl());
-        helperUser = new HelperUser(wd);
-        car = new HelperCar(wd);
+        logger.info("Current Url --> " +wd.getCurrentUrl());
+        helperUser=new HelperUser(wd);
+        car= new HelperCar(wd);
+        search = new HelperSearch(wd);
 
     }
 
-    public void stop() {
+    public void stop(){
 
         wd.quit();
     }
 
+    public HelperSearch search() {
+        return search;
+    }
 
     public HelperUser getHelperUser() {
         return helperUser;
