@@ -3,6 +3,7 @@ package manager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.openqa.selenium.support.events.WebDriverListener;
 
@@ -20,9 +21,11 @@ public class ApplicationManager {
     HelperCar car;
     HelperSearch search;
 
+
     public void init(){
 
-        wd=new ChromeDriver();
+       wd=new ChromeDriver();
+       // wd = new FirefoxDriver();
         WebDriverListener listener = new MyListener();
         wd=new EventFiringDecorator(listener).decorate(wd);
 

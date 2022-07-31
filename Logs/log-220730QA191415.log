@@ -1,0 +1,50 @@
+19:14:18.276  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+19:14:20.206  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+19:14:20.246  INFO  tests.TestBase - Start test with name --->registrationSuccess2
+19:14:20.248  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+19:14:25.325  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+19:14:25.406  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+19:14:25.524  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+19:14:25.624  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+19:14:25.747  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+19:14:25.841  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+19:14:26.001  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:14:26.055  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:14:26.098  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+19:14:26.508  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+19:14:26.549  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+19:14:26.569  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+19:14:26.615  INFO  tests.TestBase - Start test with name --->registrationSuccess2
+19:14:26.616  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+19:14:31.633  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+19:14:31.671  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+19:14:31.751  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+19:14:31.822  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+19:14:31.906  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+19:14:31.998  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+19:14:32.149  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:14:37.413  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+19:14:42.464  INFO  tests.TestBase - Start test with name --->registrationSuccess2
+19:14:42.465  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+19:14:42.932  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+19:14:42.948  INFO  manager.MyListener - The name of method with error -->findElement
+19:14:42.949  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ce8ff142caf23c79985a5aa2ae8dfa4, findElement {using=xpath, value=//a[text()=' Sign up ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63540/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ce8ff142caf23c79985a5aa2ae8dfa4
+19:14:42.951  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+19:14:42.959  INFO  manager.MyListener - The name of method with error -->findElements
+19:14:42.960  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ce8ff142caf23c79985a5aa2ae8dfa4, findElements {using=xpath, value=//button[text()='Ok']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63540/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ce8ff142caf23c79985a5aa2ae8dfa4

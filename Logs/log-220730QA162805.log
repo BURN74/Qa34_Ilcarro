@@ -1,0 +1,26 @@
+16:28:08.669  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+16:28:10.670  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+16:28:10.709  INFO  tests.TestBase - Start test with name --->loginSuccess
+16:28:10.712  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:28:15.748  INFO  tests.TestBase - Test start with email : noa@gmail.com & password: Nnoa12345$
+16:28:15.749  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:28:15.822  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:28:16.410  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:28:21.463  INFO  tests.TestBase - Start test with name --->loginSuccess
+16:28:21.464  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:28:26.480  INFO  tests.TestBase - Test start with email : sonya@gmail.com & password: Ss12345$
+16:28:26.481  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:28:26.528  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:28:26.848  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:28:31.895  INFO  tests.TestBase - Start test with name --->loginSuccess
+16:28:31.896  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:28:36.915  INFO  tests.TestBase - Test start with email : noa@gmail.com & password: Nnoa12345$
+16:28:36.915  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:28:36.950  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:28:37.233  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:28:42.272  INFO  tests.TestBase - Start test with name --->loginSuccess
+16:28:42.273  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:28:47.299  INFO  tests.TestBase - Test start with email : sonya@gmail.com & password: Ss12345$
+16:28:47.299  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:28:47.348  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:28:47.639  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']

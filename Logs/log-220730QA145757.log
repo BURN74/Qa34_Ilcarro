@@ -1,0 +1,29 @@
+14:57:59.987  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+14:58:01.862  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+14:58:01.893  INFO  tests.TestBase - Start test with name --->searchPeriodPast
+14:58:01.896  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+14:58:02.536  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+14:58:02.582  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+14:58:02.656  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+14:58:02.825  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .search-card
+14:58:03.938  INFO  manager.MyListener - The name of method with error -->click
+14:58:03.941  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div _ngcontent-bkb-c72="" class="search-card">...</div> is not clickable at point (951, 506). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc88c22b37c2f4ca290d4a8abfc471ff, clickElement {id=b82938f4-13f8-4ca0-8d62-a5ab43b6a5ac}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53479/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bc88c22b37c2f4ca290d4a8abfc471ff)] -> css selector: .search-card]
+Session ID: bc88c22b37c2f4ca290d4a8abfc471ff
+14:58:03.944  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+14:58:05.051  INFO  manager.MyListener - The name of method with error -->click
+14:58:05.051  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-bkb-c25="" href="/" class="logo">...</a> is not clickable at point (284, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc88c22b37c2f4ca290d4a8abfc471ff, clickElement {id=62b808e1-bb34-4de2-8204-a0060c5256ef}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53479}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53479/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bc88c22b37c2f4ca290d4a8abfc471ff)] -> css selector: .logo]
+Session ID: bc88c22b37c2f4ca290d4a8abfc471ff
