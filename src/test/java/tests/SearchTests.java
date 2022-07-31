@@ -3,6 +3,7 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class SearchTests extends TestBase {
@@ -31,7 +32,7 @@ public class SearchTests extends TestBase {
         app.search().submitWithoutWait();
         Assert.assertTrue(app.search().isYallaButtoNotActive());
         Assert.assertTrue(app.search().isPeriodInPast());
-        app.search().takeScreenShots("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\src\\test\\screenshots\\screen3.png");
+        //app.search().takeScreenShots("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\src\\test\\screenshots\\screen3.png");
 
     }
 
@@ -61,9 +62,8 @@ public class SearchTests extends TestBase {
     }
 
 
-    @AfterMethod
+    @BeforeMethod (alwaysRun = true)
     public void returnToHome(){
-
         app.search().returnToHome();
     }
 }

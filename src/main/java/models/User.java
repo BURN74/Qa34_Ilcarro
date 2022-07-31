@@ -1,38 +1,16 @@
 package models;
 
 public class User {
-     private String name;
-     public String lastName;
-     public String email;
-     public String password;
-     public String phone;
 
-    public String getName() {
-        return name;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-
+    private String name;
+    private  String lastName;
+    private String email;
+    private String password;
+    private String phone;
 
     public User setName(String name) {
         this.name = name;
-       return this;
-
+        return this;
     }
 
     public User setLastName(String lastName) {
@@ -53,6 +31,26 @@ public class User {
     public User setPhone(String phone) {
         this.phone = phone;
         return this;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getPhone() {
+        return phone;
     }
 
     @Override

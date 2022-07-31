@@ -8,15 +8,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class HelperSearch extends HelperBase{
-
-
     public HelperSearch(WebDriver wd) {
-
         super(wd);
     }
 
@@ -47,18 +43,15 @@ public class HelperSearch extends HelperBase{
 
     private void clearPeriod() {
         WebElement el = wd.findElement(By.id("dates"));
-         String osName = System.getProperty("os.name");
-        System.out.println(osName);
-        if(osName.startsWith("Windows")){
-            el.sendKeys(Keys.CONTROL,"a");
-
-        }else {
+        String  osName= System.getProperty("os.name");
+        System.out.println(osName);  //Mac OS X
+        if(osName.startsWith("Mac")){
             el.sendKeys(Keys.COMMAND,"a");
+        }else {
+            el.sendKeys(Keys.CONTROL,"a");
         }
         el.sendKeys(Keys.DELETE);
     }
-
-
 
     private void typeCity(String city) {
         new WebDriverWait(wd, Duration.ofSeconds(5))
@@ -149,7 +142,6 @@ public class HelperSearch extends HelperBase{
 
     public void searchAnyPeriodLocalDate(String city, String dataFrom, String dataTo) {
         typeCity(city);
-       // clearPeriod();
         LocalDate now = LocalDate.now();
         LocalDate from= LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
         LocalDate to = LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
@@ -202,11 +194,11 @@ public class HelperSearch extends HelperBase{
     }
 
     public void returnToHome() {
-
         click(By.cssSelector(".logo"));
     }
 
     public void searchNextMonth(String city, String dataFrom, String dataTo) {
+
         typeCity(city);
         clearPeriod();
         click(By.id("dates"));
@@ -228,13 +220,11 @@ public class HelperSearch extends HelperBase{
     public void searchPeriodPast(String city, String dataFrom, String dataTo) {
         typeCity(city);
         clearPeriod();
-        type(By.id("dates"), dataFrom+" - "+dataTo);
+        type(By.id("dates"),dataFrom+" - "+dataTo);
         click(By.cssSelector(".cdk-overlay-container"));
-
     }
 
     public boolean isPeriodInPast() {
-        return wd.findElement(By.cssSelector("div.error div"))
-                .getText().equals("You can't pick date before today");
+        return wd.findElement(By.cssSelector("div.error div")).getText().equals("You can't pick date before today");
     }
 }

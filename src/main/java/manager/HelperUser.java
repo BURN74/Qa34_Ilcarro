@@ -25,9 +25,11 @@ public class HelperUser extends HelperBase{
 
     public void fillLoginForm(String email,String password){
         type(By.id("email"),email);
-        takeScreenShots("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\src\\test\\screenshots");
+        takeScreenShots("/Users/tayahatum/Qa34/Qa34_IlCarro/Qa34_IlCarro/src/test/screenshots/screen-1.png");
 
         type(By.id("password"),password);
+
+
     }
     public void fillLoginForm(User user){
         type(By.id("email"), user.getEmail());
@@ -35,7 +37,6 @@ public class HelperUser extends HelperBase{
     }
 
     public void openRegistrationForm() {
-
         click(By.xpath("//a[text()=' Sign up ']"));
     }
 
@@ -99,6 +100,7 @@ public class HelperUser extends HelperBase{
                         .textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:first-child")), "Password must contain minimum 8 symbols"));
 
     }
+
 
 
     public void login(User user) {

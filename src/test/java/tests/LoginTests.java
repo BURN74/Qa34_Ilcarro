@@ -1,4 +1,5 @@
 package tests;
+
 import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
@@ -13,7 +14,7 @@ import java.util.List;
 
 public class LoginTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
 
         if (app.getHelperUser().isLogged()) {
@@ -35,16 +36,15 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"web"})
     public void loginSuccess2() {
-       app.getHelperUser().openLoginForm();
+        app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noa@gmail.com", "Nnoa12345$");
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in");
 
     }
-
-    @Test(dataProvider = "loginCSV",dataProviderClass = MyDataProvider.class)
+    @Test (dataProvider = "loginCSV",dataProviderClass = MyDataProvider.class)
     public void loginSuccessDP(User user) {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
@@ -53,9 +53,9 @@ public class LoginTests extends TestBase {
 
     }
 
-    @AfterMethod
-    public void postCondition() {
 
+    @AfterMethod (alwaysRun = true)
+    public void postCondition() {
         app.getHelperUser().clickOk();
     }
 

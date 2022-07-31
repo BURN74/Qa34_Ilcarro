@@ -1,0 +1,63 @@
+15:21:39.102  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+15:21:40.775  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+15:21:40.806  INFO  tests.TestBase - Start test with name --->addNewCarSuccess2
+15:21:40.807  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:21:45.854  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:21:45.916  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:21:46.025  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+15:21:46.110  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:21:46.155  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:21:46.200  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:21:47.443  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+15:21:48.503  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+15:21:48.574  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+15:21:48.676  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+15:21:49.600  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+15:21:49.701  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+15:21:49.784  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+15:21:49.884  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+15:21:49.970  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+15:21:50.030  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+15:21:50.096  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+15:21:50.158  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+15:21:50.262  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+15:21:50.365  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+15:21:50.449  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+15:21:50.551  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+15:21:50.644  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+15:21:50.743  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+15:21:50.840  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+15:21:50.945  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+15:21:51.031  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+15:21:51.073  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:21:52.675  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:21:52.708  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+15:21:54.333  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+15:21:54.361  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+15:21:54.404  INFO  tests.TestBase - Start test with name --->addNewCarSuccess2
+15:21:54.404  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:21:55.422  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+15:21:55.473  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+15:21:55.556  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+15:21:56.416  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+15:21:56.503  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+15:21:56.581  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+15:21:56.663  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+15:21:56.741  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+15:21:56.789  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+15:21:56.841  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+15:21:56.902  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+15:21:56.987  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+15:21:57.070  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+15:21:57.154  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+15:21:57.240  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+15:21:57.326  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+15:21:57.410  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+15:21:57.507  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+15:21:57.588  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+15:21:57.659  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+15:21:57.689  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:21:58.784  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:21:58.818  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+15:22:00.782  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+15:22:00.804  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']

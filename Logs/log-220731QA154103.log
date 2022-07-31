@@ -1,0 +1,148 @@
+15:41:05.609  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+15:41:07.402  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+15:41:07.430  INFO  tests.TestBase - Start test with name --->loginSuccess
+15:41:07.431  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:41:12.482  INFO  tests.TestBase - Test start with email : noa@gmail.com & password: Nnoa12345$
+15:41:12.482  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:41:12.541  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:41:12.799  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:41:17.832  INFO  tests.TestBase - Start test with name --->loginSuccess
+15:41:17.834  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:41:22.848  INFO  tests.TestBase - Test start with email : sonya@gmail.com & password: Ss12345$
+15:41:22.849  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:41:22.896  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:41:23.397  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:41:28.421  INFO  tests.TestBase - Start test with name --->loginSuccess
+15:41:28.422  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:41:33.446  INFO  tests.TestBase - Test start with email : noa@gmail.com & password: Nnoa12345$
+15:41:33.447  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:41:33.485  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:41:33.936  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:41:38.951  INFO  tests.TestBase - Start test with name --->loginSuccess
+15:41:38.953  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:41:43.978  INFO  tests.TestBase - Test start with email : sonya@gmail.com & password: Ss12345$
+15:41:43.979  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:41:44.015  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:41:44.481  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:41:49.513  INFO  tests.TestBase - Start test with name --->loginSuccess2
+15:41:49.514  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:41:54.533  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:41:54.578  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:41:55.027  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:42:00.050  INFO  tests.TestBase - Start test with name --->loginSuccessDP
+15:42:00.051  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:42:05.071  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:42:05.105  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:42:05.174  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+15:42:05.250  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:42:05.287  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:42:05.327  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+15:42:06.477  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+15:42:06.504  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:42:06.515  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+15:42:06.554  INFO  tests.TestBase - Start test with name --->loginSuccessDP
+15:42:06.555  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:42:06.564  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+15:42:06.626  INFO  tests.TestBase - Test start with logout
+15:42:06.627  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:42:06.668  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:42:06.702  INFO  manager.MyListener - The name of method with error -->click
+15:42:06.705  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d4c5bcc4842f5e568e9fe1e1bbc4bea, clickElement {id=9928135f-fbb4-4401-ba86-12cdfbb3075f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4d4c5bcc4842f5e568e9fe1e1bbc4bea)] -> id: email]
+Session ID: 4d4c5bcc4842f5e568e9fe1e1bbc4bea
+15:42:06.706  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:42:11.734  INFO  tests.TestBase - Start test with name --->loginSuccessDP
+15:42:11.735  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:42:16.758  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:42:16.804  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:42:16.880  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+15:42:16.949  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:42:16.976  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:42:17.017  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+15:42:18.211  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+15:42:18.234  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:42:18.245  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+15:42:18.282  INFO  tests.TestBase - Start test with name --->loginSuccessDP
+15:42:18.283  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:42:18.295  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+15:42:18.344  INFO  tests.TestBase - Test start with logout
+15:42:18.345  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:42:18.387  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:42:18.466  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+15:42:18.539  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:42:18.565  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:42:18.602  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+15:42:19.180  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+15:42:19.202  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:42:19.214  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+15:42:19.246  INFO  tests.TestBase - Start test with name --->registrationSuccess
+15:42:19.247  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:42:19.256  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+15:42:19.303  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+15:42:19.359  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+15:42:24.380  INFO  manager.MyListener - The name of method with error -->findElement
+15:42:24.381  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d4c5bcc4842f5e568e9fe1e1bbc4bea, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d4c5bcc4842f5e568e9fe1e1bbc4bea
+15:42:24.382  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:42:29.398  INFO  tests.TestBase - Start test with name --->registrationWrongPasswordFormatSize
+15:42:29.399  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:42:34.423  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+15:42:34.469  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+15:42:34.552  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+15:42:34.625  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:42:34.709  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+15:42:34.781  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+15:42:34.823  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:last-child
+15:42:34.851  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:last-child
+15:42:34.870  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+15:42:34.895  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+15:42:34.910  INFO  manager.MyListener - New Before find by --> By.cssSelector: button[disabled]
+15:42:34.921  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [type='submit']
+15:42:34.942  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:42:39.987  INFO  tests.TestBase - Start test with name --->searchAnyPeriod
+15:42:39.988  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+15:42:45.009  INFO  manager.MyListener - The name of method with error -->findElement
+15:42:45.009  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d4c5bcc4842f5e568e9fe1e1bbc4bea, findElement {using=id, value=city}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d4c5bcc4842f5e568e9fe1e1bbc4bea
+15:42:45.012  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+15:42:45.226  INFO  tests.TestBase - Start test with name --->searchCurrentMonth
+15:42:45.227  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+15:42:45.247  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+15:42:45.840  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+15:42:45.890  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+15:42:45.945  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+15:42:46.012  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 31 ']
+15:42:46.060  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 30 ']
+15:42:46.103  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:42:51.409  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+15:42:52.500  INFO  manager.MyListener - The name of method with error -->click
+15:42:52.501  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-qdd-c25="" href="/" class="logo">...</a> is not clickable at point (284, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d4c5bcc4842f5e568e9fe1e1bbc4bea, clickElement {id=cd92acc6-745b-48ac-be12-ed5e5c386e43}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64069/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4d4c5bcc4842f5e568e9fe1e1bbc4bea)] -> css selector: .logo]
+Session ID: 4d4c5bcc4842f5e568e9fe1e1bbc4bea

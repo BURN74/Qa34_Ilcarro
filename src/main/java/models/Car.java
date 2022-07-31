@@ -8,7 +8,6 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-
 public class Car {
 
     private String address;
@@ -28,6 +27,5 @@ public class Car {
     private String distanceIncluded;
     private String features;
     private String  about;
-
 
 }

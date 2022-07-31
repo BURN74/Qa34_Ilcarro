@@ -1,0 +1,110 @@
+15:25:51.348  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+15:25:52.950  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+15:25:52.979  INFO  tests.TestBase - Start test with name --->addNewCarSuccess2
+15:25:52.981  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:25:58.037  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:25:58.101  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:25:58.214  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+15:25:58.301  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:25:58.350  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:25:58.400  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:25:59.605  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+15:26:00.671  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+15:26:00.743  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+15:26:00.846  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+15:26:01.774  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+15:26:01.862  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+15:26:01.944  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+15:26:02.037  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+15:26:02.121  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+15:26:02.180  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+15:26:02.247  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+15:26:02.308  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+15:26:02.423  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+15:26:02.523  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+15:26:02.610  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+15:26:02.711  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+15:26:02.810  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+15:26:02.911  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+15:26:03.022  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+15:26:03.109  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+15:26:03.191  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+15:26:03.233  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:26:04.845  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:26:04.882  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+15:26:06.287  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+15:26:06.318  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+15:26:11.372  INFO  manager.MyListener - The name of method with error -->findElement
+15:26:11.374  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70fb95cd790ea9b985e1b377542b35a0, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63685/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70fb95cd790ea9b985e1b377542b35a0
+15:26:11.381  INFO  tests.TestBase - Start test with name --->loginSuccess
+15:26:11.381  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:26:11.394  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+15:26:16.456  INFO  manager.MyListener - The name of method with error -->click
+15:26:16.457  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70fb95cd790ea9b985e1b377542b35a0, clickElement {id=91873725-617c-458d-b9f6-4f0dbcf5ec62}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63685/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (70fb95cd790ea9b985e1b377542b35a0)] -> xpath: //a[text()=' Logout ']]
+Session ID: 70fb95cd790ea9b985e1b377542b35a0
+15:26:16.476  INFO  tests.TestBase - Start test with name --->registrationSuccess
+15:26:16.476  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:26:16.487  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+15:26:21.543  INFO  manager.MyListener - The name of method with error -->click
+15:26:21.543  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70fb95cd790ea9b985e1b377542b35a0, clickElement {id=91873725-617c-458d-b9f6-4f0dbcf5ec62}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63685/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (70fb95cd790ea9b985e1b377542b35a0)] -> xpath: //a[text()=' Logout ']]
+Session ID: 70fb95cd790ea9b985e1b377542b35a0
+15:26:21.545  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:26:21.560  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+15:26:21.601  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:26:21.611  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+15:26:21.741  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:26:26.781  INFO  tests.TestBase - Start test with name --->searchAnyPeriod
+15:26:26.782  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+15:26:31.806  INFO  manager.MyListener - The name of method with error -->findElement
+15:26:31.806  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70fb95cd790ea9b985e1b377542b35a0, findElement {using=id, value=city}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63685/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70fb95cd790ea9b985e1b377542b35a0
+15:26:31.808  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+15:26:32.029  INFO  tests.TestBase - Start test with name --->searchCurrentMonth
+15:26:32.030  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+15:26:32.055  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+15:26:32.649  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+15:26:32.698  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+15:26:32.758  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+15:26:32.827  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 31 ']
+15:26:32.878  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 30 ']
+15:26:32.923  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:26:38.240  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+15:26:39.337  INFO  manager.MyListener - The name of method with error -->click
+15:26:39.338  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-yra-c25="" href="/" class="logo">...</a> is not clickable at point (184, 44). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70fb95cd790ea9b985e1b377542b35a0, clickElement {id=54831996-83f8-44ad-a75f-3f7cd61c49c0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63685/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (70fb95cd790ea9b985e1b377542b35a0)] -> css selector: .logo]
+Session ID: 70fb95cd790ea9b985e1b377542b35a0

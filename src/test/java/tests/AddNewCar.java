@@ -1,6 +1,6 @@
 package tests;
 
-
+import manager.MyDataProvider;
 import models.Car;
 import models.User;
 import org.testng.Assert;
@@ -10,23 +10,21 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-import static org.testng.Assert.assertEquals;
+public class AddNewCar extends TestBase{
 
-public class AddNewCar extends TestBase {
-
-    @BeforeMethod
-    public void preCondition() {
-        if (!app.getHelperUser().isLogged()) {
-            app.getHelperUser().login(new User()
-                    .setEmail("noa@gmail.com").setPassword("Nnoa12345$"));
+    @BeforeMethod (alwaysRun = true)
+    public void preCondition(){
+        if(!app.getHelperUser().isLogged()){
+            app.getHelperUser().login(new User().setEmail("noa@gmail.com").setPassword("Nnoa12345$"));
         }
     }
 
-    @Test
-    public void addNewCarSuccess() {
-        Random random= new Random();
-        int i = random.nextInt(1000)+1000;
-        Car car = Car.builder()
+    @Test (groups = {"web","smoke","regres"})
+    public void addNewCarSuccess(){
+        Random random = new Random();
+        int i =random.nextInt(1000)+1000;
+
+        Car car= Car.builder()
                 .address("Haifa, Israel")
                 .make("BMW")
                 .model("M5")
@@ -39,7 +37,7 @@ public class AddNewCar extends TestBase {
                 .seats("4")
                 .clasS("C")
                 .fuelConsumption("6.5")
-                .carRegNumber("22-333"+i)
+                .carRegNumber("22-333-"+i)
                 .price("65")
                 .distanceIncluded("800")
                 .features("type of features")
@@ -49,14 +47,25 @@ public class AddNewCar extends TestBase {
 
         app.car().openCarForm();
         app.car().fillCarForm(car);
+        app.car().attachPhoto("/Users/tayahatum/Qa34/Qa34_IlCarro/auto1.jpeg");
+        app.car().submit();
+        Assert.assertEquals(app.car().getMessage(),"Car added");
+
+    }
+
+    @Test(dataProvider =  "validDataCar",dataProviderClass = MyDataProvider.class,enabled = false)
+    public void addNewCarSuccess2(Car car) {
+
+        app.car().openCarForm();
+        app.car().fillCarForm(car);
         app.car().attachPhoto("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\auto1.jpeg");
         app.car().submit();
         Assert.assertEquals(app.car().getMessage(),"Car added");
 
     }
 
-    @AfterMethod
-    public void postCondition() {
+    @AfterMethod (alwaysRun = true)
+    public void postCondition(){
         app.car().returnToHome();
     }
 }
