@@ -23,18 +23,17 @@ public class HelperUser extends HelperBase{
         wd.findElement(By.xpath("//a[text()=' Log in ']")).click();
     }
 
-    public void fillLoginForm(String email,String password){
+    public void fillLoginForm(String email, String password){
         type(By.id("email"),email);
-        takeScreenShots("/Users/tayahatum/Qa34/Qa34_IlCarro/Qa34_IlCarro/src/test/screenshots/screen-1.png");
-
+        takeScreenShots("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\src\\test\\screenshots\\screen-1.png");
         type(By.id("password"),password);
 
 
     }
-    public void fillLoginForm(User user){
+  public void fillLoginForm(User user){
         type(By.id("email"), user.getEmail());
         type(By.id("password"), user.getPassword());
-    }
+  }
 
     public void openRegistrationForm() {
         click(By.xpath("//a[text()=' Sign up ']"));
@@ -77,6 +76,7 @@ public class HelperUser extends HelperBase{
     }
 
     public void logout() {
+
         click(By.xpath("//a[text()=' Logout ']"));
     }
 

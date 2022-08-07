@@ -1,0 +1,222 @@
+16:41:24.983  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+16:41:26.559  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+16:41:26.582  INFO  tests.TestBase - Start test with name --->addNewCarSuccess
+16:41:26.584  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:41:31.636  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:41:31.699  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:41:31.814  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+16:41:31.901  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:31.949  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:31.994  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:41:33.241  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+16:41:34.287  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+16:41:34.361  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+16:41:34.469  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+16:41:35.390  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+16:41:35.483  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+16:41:35.560  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+16:41:35.652  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+16:41:35.733  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+16:41:35.796  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+16:41:35.859  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+16:41:35.921  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+16:41:36.022  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+16:41:36.120  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+16:41:36.202  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+16:41:36.290  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+16:41:36.387  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+16:41:36.476  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+16:41:36.571  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+16:41:36.660  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+16:41:36.743  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+16:41:36.793  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:38.410  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:38.446  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+16:41:39.961  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+16:41:39.988  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+16:41:40.033  INFO  tests.TestBase - Start test with name --->loginSuccess
+16:41:40.034  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:41:40.047  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+16:41:40.171  INFO  tests.TestBase - Test start with logout
+16:41:40.173  INFO  tests.TestBase - Test start with email : noa@gmail.com & password: Nnoa12345$
+16:41:40.173  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:41:40.222  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:41:40.316  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+16:41:40.394  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:40.417  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:40.453  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+16:41:41.960  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+16:41:41.979  INFO  tests.TestBase - Test passed
+16:41:41.980  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:41:41.994  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+16:41:42.035  INFO  tests.TestBase - Start test with name --->loginSuccess
+16:41:42.036  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:41:42.046  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+16:41:42.100  INFO  tests.TestBase - Test start with logout
+16:41:42.100  INFO  tests.TestBase - Test start with email : sonya@gmail.com & password: Ss12345$
+16:41:42.100  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:41:42.150  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:41:42.249  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+16:41:42.334  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:42.362  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:42.399  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+16:41:42.920  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+16:41:42.943  INFO  tests.TestBase - Test passed
+16:41:42.944  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:41:42.955  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+16:41:42.997  INFO  tests.TestBase - Start test with name --->loginSuccess
+16:41:42.998  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:41:43.020  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+16:41:43.063  INFO  tests.TestBase - Test start with logout
+16:41:43.063  INFO  tests.TestBase - Test start with email : noa@gmail.com & password: Nnoa12345$
+16:41:43.063  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:41:43.107  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:41:43.191  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+16:41:43.263  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:43.287  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:43.324  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+16:41:44.467  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+16:41:44.488  INFO  tests.TestBase - Test passed
+16:41:44.489  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:41:44.499  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+16:41:44.540  INFO  tests.TestBase - Start test with name --->loginSuccess
+16:41:44.541  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:41:44.551  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+16:41:44.601  INFO  tests.TestBase - Test start with logout
+16:41:44.602  INFO  tests.TestBase - Test start with email : sonya@gmail.com & password: Ss12345$
+16:41:44.602  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:41:44.651  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:41:44.769  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+16:41:44.846  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:44.869  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:44.904  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+16:41:45.419  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+16:41:45.440  INFO  tests.TestBase - Test passed
+16:41:45.441  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:41:45.452  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+16:41:45.491  INFO  tests.TestBase - Start test with name --->loginSuccess2
+16:41:45.492  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:41:45.501  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+16:41:45.552  INFO  tests.TestBase - Test start with logout
+16:41:45.552  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+16:41:45.600  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:41:45.688  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+16:41:45.775  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:45.798  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:45.833  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+16:41:47.044  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+16:41:47.066  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:41:47.076  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+16:41:47.115  INFO  tests.TestBase - Start test with name --->registrationSuccess
+16:41:47.115  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:41:47.126  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+16:41:47.180  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+16:41:47.240  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+16:41:47.317  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+16:41:47.398  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:41:47.486  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+16:41:47.559  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+16:41:47.698  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:47.721  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:47.762  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+16:41:48.222  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+16:41:48.244  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:41:48.254  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+16:41:48.287  INFO  tests.TestBase - Start test with name --->registrationWrongPasswordFormatSize
+16:41:48.288  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:41:48.298  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+16:41:48.348  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+16:41:48.396  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+16:41:48.465  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+16:41:48.536  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:41:48.631  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+16:41:48.697  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+16:41:48.729  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:last-child
+16:41:48.750  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:last-child
+16:41:48.768  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+16:41:48.791  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+16:41:48.806  INFO  manager.MyListener - New Before find by --> By.cssSelector: button[disabled]
+16:41:48.819  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [type='submit']
+16:41:48.840  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:41:53.875  INFO  tests.TestBase - Start test with name --->searchAnyPeriod
+16:41:53.876  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+16:41:54.093  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+16:41:54.117  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+16:41:54.716  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+16:41:54.766  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+16:41:54.832  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+16:41:54.898  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:54.943  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:54.984  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.026  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.073  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.113  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.145  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.178  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.211  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.241  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.275  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.308  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+16:41:55.358  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+16:41:55.398  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 15 ']
+16:41:55.445  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:55.470  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:41:55.534  INFO  manager.MyListener - New Before find by --> By.cssSelector: .cars-container.ng-star-inserted
+16:41:56.691  INFO  tests.TestBase - Start test with name --->searchCurrentMonth
+16:41:56.692  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+16:41:56.834  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+16:41:56.855  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+16:41:57.477  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+16:41:57.525  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+16:41:57.574  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+16:41:57.626  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 1 ']
+16:41:57.667  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 31 ']
+16:41:57.711  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:42:03.042  INFO  tests.TestBase - Start test with name --->searchCurrentYear
+16:42:03.043  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+16:42:04.134  INFO  manager.MyListener - The name of method with error -->click
+16:42:04.134  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-pjn-c25="" href="/" class="logo">...</a> is not clickable at point (284, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58c29a94c1b9ba9480495aeb1dff4d01, clickElement {id=ee7de366-a360-455a-aa5a-619a809b7fe7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61273/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (58c29a94c1b9ba9480495aeb1dff4d01)] -> css selector: .logo]
+Session ID: 58c29a94c1b9ba9480495aeb1dff4d01
+16:42:04.137  INFO  tests.TestBase - Start test with name --->searchCurrentYearLocalDate
+16:42:04.138  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+16:42:05.214  INFO  manager.MyListener - The name of method with error -->click
+16:42:05.215  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-pjn-c25="" href="/" class="logo">...</a> is not clickable at point (284, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58c29a94c1b9ba9480495aeb1dff4d01, clickElement {id=ee7de366-a360-455a-aa5a-619a809b7fe7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61273/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (58c29a94c1b9ba9480495aeb1dff4d01)] -> css selector: .logo]
+Session ID: 58c29a94c1b9ba9480495aeb1dff4d01
+16:42:05.219  INFO  tests.TestBase - Start test with name --->searchNextMonth
+16:42:05.219  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+16:42:06.295  INFO  manager.MyListener - The name of method with error -->click
+16:42:06.295  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-pjn-c25="" href="/" class="logo">...</a> is not clickable at point (284, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58c29a94c1b9ba9480495aeb1dff4d01, clickElement {id=ee7de366-a360-455a-aa5a-619a809b7fe7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61273/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (58c29a94c1b9ba9480495aeb1dff4d01)] -> css selector: .logo]
+Session ID: 58c29a94c1b9ba9480495aeb1dff4d01
+16:42:06.298  INFO  tests.TestBase - Start test with name --->searchPeriodPast
+16:42:06.300  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+16:42:07.376  INFO  manager.MyListener - The name of method with error -->click
+16:42:07.376  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-pjn-c25="" href="/" class="logo">...</a> is not clickable at point (284, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-P7LS7IG', ip: '192.168.1.22', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58c29a94c1b9ba9480495aeb1dff4d01, clickElement {id=ee7de366-a360-455a-aa5a-619a809b7fe7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\97253\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61273/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (58c29a94c1b9ba9480495aeb1dff4d01)] -> css selector: .logo]
+Session ID: 58c29a94c1b9ba9480495aeb1dff4d01

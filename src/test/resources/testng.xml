@@ -2,13 +2,6 @@
 
 <suite name="Suite1" verbose="1" >
     <test name="reg" >
-        <groups>
-            <run>
-                <include name="web"/>
-            </run>
-        </groups>
-
-
         <classes>
             <class name="tests.LoginTests" />
             <class name="tests.RegistrationTests"/>
@@ -16,5 +9,6 @@
             <class name="tests.SearchTests"/>
         </classes>
     </test>
+
 
 </suite>

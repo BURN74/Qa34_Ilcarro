@@ -25,9 +25,9 @@ public class MyDataProvider {
     @DataProvider
     public Iterator<Object[]>dataRegistration(){
         List<Object[]> list= new ArrayList<>();
-        list.add(new Object[]{new User().setName("Dorati").setLastName("Doe").setEmail("dor@mail.com").setPassword("Dd12345$")});
-        list.add(new Object[]{new User().setName("Dorati").setLastName("Doe").setEmail("dor1@mail.com").setPassword("Dd12345$")});
-        list.add(new Object[]{new User().setName("Dorati").setLastName("Doe").setEmail("dor2@mail.com").setPassword("Dd12345$")});
+        list.add(new Object[]{new User().setName("Dorati").setLastName("Doe").setEmail("dor6@mail.com").setPassword("Dd12345$")});
+        list.add(new Object[]{new User().setName("Dorati").setLastName("Doe").setEmail("dor7@mail.com").setPassword("Dd12345$")});
+        list.add(new Object[]{new User().setName("Dorati").setLastName("Doe").setEmail("dor8@mail.com").setPassword("Dd12345$")});
 
         return list.iterator();
     }
@@ -38,7 +38,7 @@ public class MyDataProvider {
     public Iterator<Object[]>loginCSV() throws IOException {
         List<Object[]> list= new ArrayList<>();
 
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/login.csv")));
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/login.csv.csv ")));
         String line = reader.readLine();// "noa@gmail.com,Nnoa12345$"
 
         while (line!=null){

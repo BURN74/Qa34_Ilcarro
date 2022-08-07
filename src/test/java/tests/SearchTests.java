@@ -10,7 +10,7 @@ public class SearchTests extends TestBase {
 
     @Test
     public void searchCurrentMonth() {
-        app.search().searchCurrentMonth("Tel Aviv", "7/31/2022", "7/30/2022");
+        app.search().searchCurrentMonth("Tel Aviv", "8/5/2022", "8/4/2022");
         app.search().submit();
         Assert.assertTrue(app.search().isListOfCarsAppeared());
         app.search().takeScreenShots("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\src\\test\\screenshots\\screen1.png");
@@ -18,7 +18,7 @@ public class SearchTests extends TestBase {
     }
     @Test
     public void searchNextMonth() {
-        app.search().searchNextMonth("Tel Aviv - Jaffo", "8/28/2022", "8/27/2022");
+        app.search().searchNextMonth("Tel Aviv - Jaffo", "9/28/2022", "9/27/2022");
         app.search().submit();
         Assert.assertTrue(app.search().isListOfCarsAppeared());
         app.search().takeScreenShots("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\src\\test\\screenshots\\screen2.png");

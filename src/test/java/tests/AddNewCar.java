@@ -19,7 +19,7 @@ public class AddNewCar extends TestBase{
         }
     }
 
-    @Test (groups = {"web","smoke","regres"})
+    @Test
     public void addNewCarSuccess(){
         Random random = new Random();
         int i =random.nextInt(1000)+1000;
@@ -47,13 +47,13 @@ public class AddNewCar extends TestBase{
 
         app.car().openCarForm();
         app.car().fillCarForm(car);
-        app.car().attachPhoto("/Users/tayahatum/Qa34/Qa34_IlCarro/auto1.jpeg");
+        app.car().attachPhoto("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\auto1.jpeg");
         app.car().submit();
         Assert.assertEquals(app.car().getMessage(),"Car added");
 
     }
 
-    @Test(dataProvider =  "validDataCar",dataProviderClass = MyDataProvider.class,enabled = false)
+    @Test(dataProvider =  "validDataCar",dataProviderClass = MyDataProvider.class,enabled = true)
     public void addNewCarSuccess2(Car car) {
 
         app.car().openCarForm();
@@ -64,8 +64,9 @@ public class AddNewCar extends TestBase{
 
     }
 
-    @AfterMethod (alwaysRun = true)
+    @AfterMethod
     public void postCondition(){
+
         app.car().returnToHome();
     }
 }

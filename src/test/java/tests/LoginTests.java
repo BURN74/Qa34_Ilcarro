@@ -17,7 +17,7 @@ public class LoginTests extends TestBase {
     @BeforeMethod(alwaysRun = true)
     public void preCondition() {
 
-        if (app.getHelperUser().isLogged()) {
+         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
             logger.info("Test start with logout");
         }
@@ -36,7 +36,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test(groups = {"web"})
+    @Test(enabled = false)
     public void loginSuccess2() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noa@gmail.com", "Nnoa12345$");
@@ -54,8 +54,9 @@ public class LoginTests extends TestBase {
     }
 
 
-    @AfterMethod (alwaysRun = true)
+    @AfterMethod
     public void postCondition() {
+
         app.getHelperUser().clickOk();
     }
 

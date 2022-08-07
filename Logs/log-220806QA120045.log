@@ -1,0 +1,10 @@
+12:00:48.569  INFO  tests.TestBase - Start test with name --->loginSuccess
+12:00:48.578  INFO  tests.TestBase - Start test with name --->loginSuccess
+12:00:48.582  INFO  tests.TestBase - Start test with name --->loginSuccess
+12:00:48.585  INFO  tests.TestBase - Start test with name --->loginSuccess
+12:00:48.592  INFO  tests.TestBase - Start test with name --->loginSuccessDP
+12:00:48.605  INFO  tests.TestBase - Start test with name --->loginSuccessDP
+12:00:48.608  INFO  tests.TestBase - Start test with name --->loginSuccessDP
+12:00:48.613  INFO  tests.TestBase - Start test with name --->loginSuccessDP
+12:00:48.622  INFO  tests.TestBase - Start test with name --->registrationSuccess
+12:00:48.626  INFO  tests.TestBase - Start test with name --->registrationWrongPasswordFormatSize

@@ -21,7 +21,7 @@ public class RegistrationTests extends TestBase{
 
 
 
-    @Test (groups = {"web"})
+    @Test
     public void registrationSuccess(){
         int i =(int) (System.currentTimeMillis()/1000)%3600;
         User user = new User().setName("Lis").setLastName("Snow").setEmail("fox"+i+"@mail.com").setPassword("Ff12345$");
