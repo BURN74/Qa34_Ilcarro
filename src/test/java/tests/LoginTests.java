@@ -36,7 +36,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test(enabled = false)
+    @Test(groups = {"web"})
     public void loginSuccess2() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noa@gmail.com", "Nnoa12345$");
@@ -54,7 +54,7 @@ public class LoginTests extends TestBase {
     }
 
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
 
         app.getHelperUser().clickOk();

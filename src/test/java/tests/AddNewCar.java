@@ -19,7 +19,7 @@ public class AddNewCar extends TestBase{
         }
     }
 
-    @Test
+    @Test(groups = {"web","smoke","regres"})
     public void addNewCarSuccess(){
         Random random = new Random();
         int i =random.nextInt(1000)+1000;
@@ -53,7 +53,7 @@ public class AddNewCar extends TestBase{
 
     }
 
-    @Test(dataProvider =  "validDataCar",dataProviderClass = MyDataProvider.class,enabled = true)
+    @Test(dataProvider =  "validDataCar",dataProviderClass = MyDataProvider.class,enabled = false)
     public void addNewCarSuccess2(Car car) {
 
         app.car().openCarForm();
@@ -64,7 +64,7 @@ public class AddNewCar extends TestBase{
 
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition(){
 
         app.car().returnToHome();

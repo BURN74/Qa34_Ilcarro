@@ -53,7 +53,7 @@ public class SearchTests extends TestBase {
         Assert.assertTrue(app.search().isListOfCarsAppeared());
         app.search().takeScreenShots("C:\\Users\\97253\\Qa34\\Qa34_Ilcarro\\src\\test\\screenshots\\screen5.png");
     }
-    @Test
+    @Test(groups = {"web"})
     public void searchAnyPeriod(){
         app.search().searchAnyPeriodLocalDate2("Haifa", "6/10/2023", "7/15/2023");
         app.search().submit();
